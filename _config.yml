@@ -1,0 +1,23 @@
+title: Kinshuk Dwivedi
+description: Software Engineer | IIT BHU | Building scalable systems with React, Django, and cloud technologies
+author: Kinshuk Dwivedi
+email: 007kinshuk@gmail.com
+url: ""
+baseurl: ""
+
+github_username: Kinshuk0
+linkedin_username: kinshuk-dwivedi-b447581b2
+
+markdown: kramdown
+highlighter: rouge
+
+permalink: /blog/:year/:month/:day/:title/
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
