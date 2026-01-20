@@ -349,6 +349,13 @@ a:hover {
     gap: 1.5rem;
 }
 
+.skills-inline {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    justify-content: flex-start;
+}
+
 .skill-category {
     background: var(--bg-secondary);
     border: 1px solid var(--border);
@@ -391,6 +398,10 @@ a:hover {
 .skill-tag i {
     font-size: 1.1rem;
     color: var(--accent);
+}
+
+.skill-tag .skill-icon {
+    font-size: 1rem;
 }
 
 .experience-list {
