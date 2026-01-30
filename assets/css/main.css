@@ -523,6 +523,20 @@ a:hover {
     gap: 0.5rem;
 }
 
+.project-live-link {
+    display: inline-block;
+    margin-top: 1rem;
+    color: var(--accent);
+    font-weight: 500;
+    font-size: 0.9rem;
+    transition: all 0.2s ease;
+}
+
+.project-live-link:hover {
+    color: var(--accent-hover);
+    transform: translateX(4px);
+}
+
 .blog-list {
     display: flex;
     flex-direction: column;
